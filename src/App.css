@@ -6,7 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
+.dashboard-container {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  flex-wrap: wrap; /* Responsive */
+}
 
+.stat-card {
+  width: 220px;
+  height: 120px;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
