@@ -2,7 +2,7 @@ import { Navigate } from "react-router-dom";
 import { isAuthenticated } from "../utils/auth";
 
 interface ProtectedRouteProps {
-  children: JSX.Element;
+  children: React.ReactNode;
 }
 
 const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
